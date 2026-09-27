@@ -9,6 +9,7 @@ class BerthClosure:
     berth_id: str
     interval: TimeInterval
     reason: str
+    emergency: bool = False
 
 class BerthWindowCalendar:
 
